@@ -1,0 +1,44 @@
+.track-playlist{
+    align-items: center;
+    column-gap: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.track-playlist__img{
+    flex-grow: 0;
+    height: 40px;
+}
+
+.track-playlist__container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.track-playlist__container--second{
+    width: 0px;
+}
+
+.track-playlist__name{
+    color: white;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.track-playlist__artists{
+    color: white;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.track-playlist__icon{
+    cursor: pointer;
+    flex-grow: 0;
+    height: 20px;
+}

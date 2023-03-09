@@ -1,0 +1,43 @@
+.playlists-main{
+    background-color: black;
+    padding: 0 0 60px 0;
+}
+
+.tracks-playlists{
+    padding: 15px 15px 0 15px;
+}
+
+.tracks-playlists__container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tracks-playlists__img{
+    height: 150px;
+    margin-top: 20px;
+}
+
+.tracks-playlists__title{
+    color: white;
+    font-size: 16px;
+    margin: 25px 0 25px 0;
+}
+
+.tracks-playlists__tracks{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .playlists-main{
+        padding: 0;
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .playlists-main{
+        width: 85%;
+    }
+}

@@ -1,0 +1,40 @@
+.track-album{
+    align-items: center;
+    column-gap: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.track-album__img{
+    flex-grow: 0;
+    height: 40px;
+}
+
+.track-album__container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.track-album__name{
+    color: white;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.track-album__artists{
+    color: white;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.track-album__icon{
+    cursor: pointer;
+    flex-grow: 0;
+    height: 20px;
+}

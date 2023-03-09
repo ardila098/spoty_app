@@ -1,0 +1,26 @@
+.login{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.login__img{
+    width: 80%;
+}
+
+.login__button{
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    background-color: #56b36c;
+    border-radius: 10%;
+}
+
+@media (min-width: 600px) {
+    .login__img{
+        width: 40%
+    }
+}

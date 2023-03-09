@@ -1,0 +1,44 @@
+.track-favorites{
+    align-items: center;
+    column-gap: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.track-favorites__img{
+    flex-grow: 0;
+    height: 40px;
+}
+
+.track-favorites__container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.track-favorites__container--second{
+    width: 0px;
+}
+
+.track-favorites__name{
+    color: white;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.track-favorites__artists{
+    color: white;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.track-favorites__icon{
+    cursor: pointer;
+    flex-grow: 0;
+    height: 20px;
+}
